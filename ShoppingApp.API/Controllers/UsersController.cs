@@ -1,4 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+using ShoppingApp.Library.Data;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,10 +12,23 @@ namespace ShoppingApp.API.Controllers
     [ApiController]
     public class UsersController:ControllerBase
     {
-        [HttpGet]
-        public ActionResult<IEnumerable<string>> GetUsers()
+        private readonly DataContext _context;
+
+        public UsersController(DataContext context)
         {
-            return new string[] { "User-1", "User-2" };
+            _context = context;
+        }
+
+        [HttpGet]
+        public async Task<IActionResult> GetUsers()
+        {
+            return Ok(await _context.Users.ToListAsync());
+        }
+
+        [HttpGet("{id}")]
+        public IActionResult GetUser(int id)
+        {
+            return Ok(_context.Users.SingleOrDefault(x => x.UserId.Equals(id)));
         }
     }
 }

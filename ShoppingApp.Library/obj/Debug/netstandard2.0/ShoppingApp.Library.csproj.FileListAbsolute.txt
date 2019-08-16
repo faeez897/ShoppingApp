@@ -1,9 +1,0 @@
-D:\ShoppingApp\ShoppingApp.Library\bin\Debug\netstandard2.0\ShoppingApp.Library.deps.json
-D:\ShoppingApp\ShoppingApp.Library\bin\Debug\netstandard2.0\ShoppingApp.Library.dll
-D:\ShoppingApp\ShoppingApp.Library\bin\Debug\netstandard2.0\ShoppingApp.Library.pdb
-D:\ShoppingApp\ShoppingApp.Library\obj\Debug\netstandard2.0\ShoppingApp.Library.csprojAssemblyReference.cache
-D:\ShoppingApp\ShoppingApp.Library\obj\Debug\netstandard2.0\ShoppingApp.Library.csproj.CoreCompileInputs.cache
-D:\ShoppingApp\ShoppingApp.Library\obj\Debug\netstandard2.0\ShoppingApp.Library.AssemblyInfoInputs.cache
-D:\ShoppingApp\ShoppingApp.Library\obj\Debug\netstandard2.0\ShoppingApp.Library.AssemblyInfo.cs
-D:\ShoppingApp\ShoppingApp.Library\obj\Debug\netstandard2.0\ShoppingApp.Library.dll
-D:\ShoppingApp\ShoppingApp.Library\obj\Debug\netstandard2.0\ShoppingApp.Library.pdb
