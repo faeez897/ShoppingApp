@@ -14,7 +14,8 @@ namespace ShoppingApp.API.Controllers
         [HttpGet]
         public ActionResult<IEnumerable<string>> Get()
         {
-            return new string[] { "value1", "value2" };
+            // throw new Exception("Working...");
+            return new string[] { "value1", "value3" };
         }
 
         // GET api/values/5
